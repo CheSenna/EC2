@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react'
-import { Sidebar } from './components/Sidebar'
+import {Sidebar} from './components/Sidebar'
+import Player from './components/Player'
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <div className='h-[90%] flex'>
         <Sidebar />
       </div>
+      <Player/>
     </div>
   )
 }
